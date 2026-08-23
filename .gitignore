@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Heavy Files (Keep Git Clean)
+data/raw_sessions/
+data/processed/
+models/*.pth
+sounds/*.wav
+
+# System / IDE files
+.vscode/
+.DS_Store
+Thumbs.db
